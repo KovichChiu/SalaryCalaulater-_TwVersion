@@ -1,64 +1,69 @@
-[[insurance_salary_grade]]
+[labor_setting]
+labor_insurance_premium_rate = 12 #(%)
+employee_contribution_rate = 20 #(%)
+
+############### 投保薪資列表 ###############
+[[labor_insurance_grade]]
 grade = 1
-monthly_salary_total = { min = 0, max = 27470 }
-monthly_insured_salary = 27470
+salary_range = { min = 0, max = 27470 }
+insured_salary = 27470
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 2
-monthly_salary_total = { min = 27471, max = 27600 }
-monthly_insured_salary = 27600
+salary_range = { min = 27471, max = 27600 }
+insured_salary = 27600
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 3
-monthly_salary_total = { min = 27601, max = 28800 }
-monthly_insured_salary = 28800
+salary_range = { min = 27601, max = 28800 }
+insured_salary = 28800
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 4
-monthly_salary_total = { min = 28801, max = 30300 }
-monthly_insured_salary = 30300
+salary_range = { min = 28801, max = 30300 }
+insured_salary = 30300
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 5
-monthly_salary_total = { min = 30301, max = 31800 }
-monthly_insured_salary = 31800
+salary_range = { min = 30301, max = 31800 }
+insured_salary = 31800
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 6
-monthly_salary_total = { min = 31801, max = 33300 }
-monthly_insured_salary = 33300
+salary_range = { min = 31801, max = 33300 }
+insured_salary = 33300
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 7
-monthly_salary_total = { min = 33301, max = 34800 }
-monthly_insured_salary = 34800
+salary_range = { min = 33301, max = 34800 }
+insured_salary = 34800
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 8
-monthly_salary_total = { min = 34801, max = 36300 }
-monthly_insured_salary = 36300
+salary_range = { min = 34801, max = 36300 }
+insured_salary = 36300
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 9
-monthly_salary_total = { min = 36301, max = 38200 }
-monthly_insured_salary = 38200
+salary_range = { min = 36301, max = 38200 }
+insured_salary = 38200
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 10
-monthly_salary_total = { min = 38201, max = 40100 }
-monthly_insured_salary = 40100
+salary_range = { min = 38201, max = 40100 }
+insured_salary = 40100
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 11
-monthly_salary_total = { min = 40101, max = 42000 }
-monthly_insured_salary = 42000
+salary_range = { min = 40101, max = 42000 }
+insured_salary = 42000
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 12
-monthly_salary_total = { min = 42001, max = 43900 }
-monthly_insured_salary = 43900
+salary_range = { min = 42001, max = 43900 }
+insured_salary = 43900
 
-[[insurance_salary_grade]]
+[[labor_insurance_grade]]
 grade = 13
-monthly_salary_total = { min = 43901, max = 9999999 } # Use a large number to represent "and above"
-monthly_insured_salary = 45800
+salary_range = { min = 43901, max = 9999999 } # 用一個大爛的數字就不用多寫一個判斷了
+insured_salary = 45800
