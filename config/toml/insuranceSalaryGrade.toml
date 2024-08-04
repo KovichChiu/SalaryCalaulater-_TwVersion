@@ -1,0 +1,69 @@
+[labor_setting]
+labor_insurance_premium_rate = 12 #(%)
+employee_contribution_rate = 20 #(%)
+
+############### 投保薪資列表 ###############
+[[labor_insurance_grade]]
+grade = 1
+salary_range = { min = 0, max = 27470 }
+insured_salary = 27470
+
+[[labor_insurance_grade]]
+grade = 2
+salary_range = { min = 27471, max = 27600 }
+insured_salary = 27600
+
+[[labor_insurance_grade]]
+grade = 3
+salary_range = { min = 27601, max = 28800 }
+insured_salary = 28800
+
+[[labor_insurance_grade]]
+grade = 4
+salary_range = { min = 28801, max = 30300 }
+insured_salary = 30300
+
+[[labor_insurance_grade]]
+grade = 5
+salary_range = { min = 30301, max = 31800 }
+insured_salary = 31800
+
+[[labor_insurance_grade]]
+grade = 6
+salary_range = { min = 31801, max = 33300 }
+insured_salary = 33300
+
+[[labor_insurance_grade]]
+grade = 7
+salary_range = { min = 33301, max = 34800 }
+insured_salary = 34800
+
+[[labor_insurance_grade]]
+grade = 8
+salary_range = { min = 34801, max = 36300 }
+insured_salary = 36300
+
+[[labor_insurance_grade]]
+grade = 9
+salary_range = { min = 36301, max = 38200 }
+insured_salary = 38200
+
+[[labor_insurance_grade]]
+grade = 10
+salary_range = { min = 38201, max = 40100 }
+insured_salary = 40100
+
+[[labor_insurance_grade]]
+grade = 11
+salary_range = { min = 40101, max = 42000 }
+insured_salary = 42000
+
+[[labor_insurance_grade]]
+grade = 12
+salary_range = { min = 42001, max = 43900 }
+insured_salary = 43900
+
+[[labor_insurance_grade]]
+grade = 13
+salary_range = { min = 43901, max = 9999999 } # 用一個大爛的數字就不用多寫一個判斷了
+insured_salary = 45800
